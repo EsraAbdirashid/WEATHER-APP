@@ -5,7 +5,7 @@ import search_icon from '../../assets/search.png';
 import clear_icon from '../../assets/clear.png';
 import cloud_icon from '../../assets/cloud.png';
 import drizzle_icon from '../../assets/drizzle.jpg';
-// import rain_icon from '../../assets/rain.jpg';
+import rain_icon from '../../assets/rain.jpg';
 // import snow_icon from '../../assets/snow.jpg';
 // import wind_icon from '../../assets/wind.jpg';
 // import humidity_icon from '../../assets/humidity.png';
