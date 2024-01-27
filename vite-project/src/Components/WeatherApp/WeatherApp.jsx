@@ -3,7 +3,7 @@ import './WeatherApp.css'
 
 import search_icon from '../../assets/search.png';
 import clear_icon from '../../assets/clear.png';
-// import cloud_icon from '../../assets/cloud.png';
+import cloud_icon from '../../assets/cloud.png';
 // import drizzle_icon from '../../assets/drizzle.jpg';
 // import rain_icon from '../../assets/rain.jpg';
 // import snow_icon from '../../assets/snow.jpg';
@@ -19,7 +19,6 @@ const WeatherApp = () => {
   <div className="searchicon bg-white p-4  rounded-full ">
         <img src={search_icon} alt="" className='w-9 h-9' />
   </div>
-
     </div>
     <div className='weather'>
           <img src={cloud_icon} alt="" className='w-[200] h-[200px] -mt-2 m-auto' />
