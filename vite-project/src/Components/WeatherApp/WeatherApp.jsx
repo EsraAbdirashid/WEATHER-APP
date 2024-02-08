@@ -2,13 +2,13 @@ import React from 'react';
 import './WeatherApp.css';
 
 import search_icon from '../../../public/search.png';
-import clear_icon from "../Assets/clear.png";
-import cloud_icon from "../Assets/cloud.png";
-import drizzle_icon from "../Assets/drizzle";
-import rain_icon from "../Assets/rain.jpg";
-import snow_icon from "../Assets/snow.jpg";
-import wind_icon from "../Assets/wind.jpg";
-import humidity_icon from "../Assets/humidity.png";
+import clear_icon from'../../../public/clear.png'; 
+import cloud_icon from ''
+import drizzle_icon from 
+import rain_icon from 
+import snow_icon from 
+import wind_icon from 
+import humidity_icon from
 
 const WeatherApp = () => {
   return (
