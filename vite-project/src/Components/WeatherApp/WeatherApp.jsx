@@ -21,21 +21,21 @@ const WeatherApp = () => {
         </div>
       </div>
       <div className="weather-image">
-        <img src={cloud_icon} alt="" />
+        <img src={cloud_icon} alt="" className='w-[250px] h-[250px]'/>
       </div>
       <div>
         <div className="weather-temp">24C</div>
         <div className='weather-location'>jigjiga</div>
         <div className="data-container">
           <div className="element">
-            <img src={humidity_icon} alt="" className='icon' />
+            <img src={humidity_icon} alt="" className='icon w-10 h-10' />
             <div className='data'>
               <div className="humididty-percent">64%</div>
               <div className="text">Humidity</div>
             </div>
           </div>
           <div className="element">
-            <img src={wind_icon} alt="" className='icon' />
+            <img src={wind_icon} alt="" className='icon w-10 h-10' />
             <div className='data'>
               <div className="humididty-percent">18 km/h</div>
               <div className="text">Wind speed</div>
