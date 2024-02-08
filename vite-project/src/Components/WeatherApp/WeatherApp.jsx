@@ -31,6 +31,14 @@ const WeatherApp = () => {
     <img src="" alt="" className='icon' />
     <div className="data">
       <div className="humidit-percent">64%</div>
+      <div className="text">Humidity</div>
+    </div>
+  </div>
+  <div className="element">
+    <img src="" alt="" className='icon' />
+    <div className="data">
+      <div className="humidit-percent">18 km/h</div>
+      <div className="text">Wind Speed</div>
     </div>
   </div>
 </div>
