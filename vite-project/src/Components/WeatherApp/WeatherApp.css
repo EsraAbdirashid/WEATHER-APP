@@ -4,7 +4,7 @@
         margin: auto;
         margin-top: 75px;
         border-radius: 12px;
-        background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+        background-image: linear-gradient(180deg, #c8668a 0%, #ec5994 100%);
 }
 .top-bar{
         display: flex;
@@ -25,6 +25,16 @@
         font-size: 20px;
         border-radius: 40px;
         font-weight: 400;
-        
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78x;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+    
 
 }
