@@ -1,14 +1,14 @@
 import React from 'react'
 import './WeatherApp.css'
 
-// import search_icon from "../Assets/search.png";
-// import clear_icon from "../Assets/clear.png";
-// import cloud_icon from "../Assets/cloud.png";
-// import drizzle_icon from "../Assets/drizzle";
-// import rain_icon from "../Assets/rain.jpg";
-// import snow_icon from "../Assets/snow.jpg";
-// import wind_icon from "../Assets/wind.jpg";
-// import humidity_icon from "../Assets/humidity.png";
+import search_icon from "../Assets/search.png";
+import clear_icon from "../Assets/clear.png";
+import cloud_icon from "../Assets/cloud.png";
+import drizzle_icon from "../Assets/drizzle";
+import rain_icon from "../Assets/rain.jpg";
+import snow_icon from "../Assets/snow.jpg";
+import wind_icon from "../Assets/wind.jpg";
+import humidity_icon from "../Assets/humidity.png";
 
 const WeatherApp = () => {
   return (
@@ -16,6 +16,9 @@ const WeatherApp = () => {
      <div className="container">
       <div className="top-bar">
         <input type="text" className='cityInput' placeholder='search' />
+        <div className="search-icon">
+          <img src={search_icon} alt="" />
+        </div>
       </div>
      </div>
     </div>
