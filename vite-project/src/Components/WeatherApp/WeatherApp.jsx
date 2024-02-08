@@ -3,8 +3,8 @@ import './WeatherApp.css';
 
 import search_icon from '../../../public/search.png';
 import clear_icon from'../../../public/clear.png'; 
-import cloud_icon from ''
-import drizzle_icon from 
+import cloud_icon from '../../../public/cloud.png';
+import drizzle_icon from '../../../public/drizzle.jpg';
 import rain_icon from 
 import snow_icon from 
 import wind_icon from 
