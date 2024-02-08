@@ -18,5 +18,13 @@
         width: 362px;
         height: 78px;
         background: #ebfffc;
+        outline: none;
+        border: none;
+        padding-left: 40px;
+        color: #626262;
+        font-size: 20px;
+        border-radius: 40px;
+        font-weight: 400;
         
+
 }
