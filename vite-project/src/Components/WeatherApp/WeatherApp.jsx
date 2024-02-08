@@ -1,7 +1,7 @@
-import React from 'react'
-import './WeatherApp.css'
+import React from 'react';
+import './WeatherApp.css';
 
-import search_icon from "../Assets/search.png";
+import search_icon from '../../../public/search.png';
 import clear_icon from "../Assets/clear.png";
 import cloud_icon from "../Assets/cloud.png";
 import drizzle_icon from "../Assets/drizzle";
@@ -17,7 +17,7 @@ const WeatherApp = () => {
       <div className="top-bar">
         <input type="text" className='cityInput' placeholder='search' />
         <div className="search-icon">
-          <img src={search_icon} alt="" />
+        <img src={search_icon} alt="img" />
         </div>
       </div>
      </div>
@@ -25,4 +25,4 @@ const WeatherApp = () => {
   )
 }
 
-export default WeatherApp
+export default WeatherApp;
